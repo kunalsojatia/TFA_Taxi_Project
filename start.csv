@@ -1,0 +1,2 @@
+vendor_name,Trip_Pickup_DateTime,Trip_Dropoff_DateTime,Passenger_Count,Trip_Distance,Start_Lon,Start_Lat,Rate_Code,store_and_forward,End_Lon,End_Lat,Payment_Type,Fare_Amt,surcharge,mta_tax,Tip_Amt,Tolls_Amt,Total_Amt
+2,2015-01-05 09:28:44,2015-01-05 09:38:20,1,1.85,-73.95078277587889,40.77495956420898,1,N,-73.96932220458984,40.76385498046875,1,8.5,0.0,0.5,1.5,0.0,10.8
