@@ -1,0 +1,27 @@
+-- creates tables
+
+CREATE TABLE IF NOT EXISTS uber (
+	"index" BIGINT, 
+	"Total_Amt" FLOAT, 
+	"Trip_Pickup_DateTime" TEXT, 
+	"Start_Lon" FLOAT, 
+	"Start_Lat" FLOAT, 
+	"End_Lon" FLOAT, 
+	"End_Lat" FLOAT, 
+	"Date" DATETIME, 
+	"Distance" FLOAT, 
+	"Type" TEXT
+);
+
+CREATE TABLE IF NOT EXISTS yellow (
+	"index" BIGINT, 
+	"Trip_Pickup_DateTime" TEXT, 
+	"Start_Lon" FLOAT, 
+	"Start_Lat" FLOAT, 
+	"End_Lon" FLOAT, 
+	"End_Lat" FLOAT, 
+	"Total_Amt" FLOAT, 
+	"Date" DATETIME, 
+	"Distance" FLOAT, 
+	"Type" TEXT
+);
