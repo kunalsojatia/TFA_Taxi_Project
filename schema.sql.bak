@@ -20,8 +20,22 @@ CREATE TABLE IF NOT EXISTS yellow (
 	"Start_Lat" FLOAT, 
 	"End_Lon" FLOAT, 
 	"End_Lat" FLOAT, 
+	"Tip_Amt" FLOAT,
 	"Total_Amt" FLOAT, 
 	"Date" DATETIME, 
 	"Distance" FLOAT, 
 	"Type" TEXT
+);
+
+CREATE TABLE hourtable (
+	"DATE" DATETIME, 
+	"HourlyTemperature" FLOAT, 
+	"HourlyWindSpeed" FLOAT, 
+	"HourlyPrecipitation" FLOAT
+);
+
+CREATE TABLE daytable (
+	"DATE" DATE, 
+	"DailyTemperature" FLOAT, 
+	"DailyAvgWindSpeed" FLOAT
 );

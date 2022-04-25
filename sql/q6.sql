@@ -1,0 +1,1 @@
+SELECT Distance,strftime('%Y-%m-%d-%H', Date) Date_Hour from (SELECT Distance,Date from uber UNION ALL Select Distance,Date from yellow) GROUP BY Date 
