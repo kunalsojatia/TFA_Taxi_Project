@@ -1,5 +1,5 @@
 
-SELECT COUNT(*) total_yellow_rides, strftime('%H', Date) hour
+SELECT  strftime('%H', Date) hour,COUNT(*) total_yellow_rides
 FROM yellow
 GROUP BY hour
 ORDER BY COUNT(*) DESC
