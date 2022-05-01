@@ -1,7 +1,5 @@
 data/
 sample/
-uber_rides_sample.csv
-masterdf.csv
 second.db-journal
 f1.db
 *.db
