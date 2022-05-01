@@ -202,6 +202,7 @@ prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus
 prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1649130487073/work
 psutil @ file:///D:/bld/psutil_1648873144419/work
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+PuLP==2.6.0
 py @ file:///home/conda/feedstock_root/build_artifacts/py_1636301881863/work
 pycodestyle @ file:///home/conda/feedstock_root/build_artifacts/pycodestyle_1633982426610/work
 pycosat @ file:///D:/bld/pycosat_1649384983580/work

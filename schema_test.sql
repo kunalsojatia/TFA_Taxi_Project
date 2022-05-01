@@ -33,10 +33,11 @@ CREATE TABLE hourtable (
 "HourlyPrecipitation" FLOAT
 );
 
+
 CREATE TABLE daytable (
-"DATE" DATE, 
-"DailyTemperature" FLOAT, 
-"DailyAvgWindSpeed" FLOAT
+	"DATE" DATE, 
+	"DailyTemperature" FLOAT, 
+	"DailyAvgWindSpeed" FLOAT
 );
 
 CREATE VIEW IF NOT EXISTS HurricaneSandy3 AS
